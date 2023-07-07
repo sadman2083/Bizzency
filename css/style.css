@@ -1,0 +1,46 @@
+/*  Common Css start */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: 0;
+}
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+h1,
+h2 {
+  font-family: "Abril Fatface", cursive;
+}
+h3,
+h4,
+h5,
+h6,
+a,
+button {
+  font-family: "Ubuntu", sans-serif;
+}
+
+ul {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+.container {
+  width: 1170px;
+  margin: 0 auto;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+w-50 {
+  width: 50%;
+}
+w-30 {
+  width: calc(100% / 3);
+}
+
+/*  Common Css End */
