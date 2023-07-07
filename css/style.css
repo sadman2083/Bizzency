@@ -12,6 +12,7 @@ body {
 h1,
 h2 {
   font-family: "Abril Fatface", cursive;
+  font-weight: 400;
 }
 h3,
 h4,
@@ -41,6 +42,18 @@ w-50 {
 }
 w-30 {
   width: calc(100% / 3);
+}
+.section_info{
+    
+    color: #0f2f44;
+    text-align: center;
+}
+.section_info h4{
+    font-size: 14px;
+    font-weight: 300;
+}
+.section_info h2{
+    font-size: 32px;
 }
 
 /*  Common Css End */
